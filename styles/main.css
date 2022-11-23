@@ -1,0 +1,338 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+        
+        header {
+            max-width: 1600px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        body {
+            max-width: 1600px;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .menu-container {
+            background-color: rgb(232, 228, 228);
+            width: 100%;
+            height: 30px;
+            color: grey;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .menu-container .menu {
+            float: left;
+            justify-content: space-around;
+            padding-left: 140px;
+            padding-top: 5px;
+            font-weight: bold;
+        }
+        
+        .menu-container .login {
+            justify-content: space-around;
+            margin-left: 670px;
+            padding-top: 5px;
+            padding-right: 15px;
+            font-weight: bold;
+        }
+        
+        .avto-shtab {
+            background-color: white;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .avto-shtab-icon {
+            width: 300px;
+            padding-left: 140px;
+            padding-top: 10px;
+        }
+        
+        .avto-shtab .cart {
+            margin-left: 945px;
+            padding-top: 10px;
+            color: black;
+            font-weight: bold;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .avto-shtab .item {
+            color: gray;
+            font-size: 13px;
+            padding-top: 35px;
+            margin-left: -125px;
+        }
+        
+        .search {
+            background-color: rgb(255, 191, 0);
+            width: 100%;
+            height: 80px;
+            font-size: 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .search .number {
+            color: white;
+            margin-left: 260px;
+            padding-top: 30px;
+        }
+        
+        .search .search_field {
+            box-sizing: border-box;
+            border: 2px solid white;
+            background: white;
+            width: 860px;
+            height: 50px;
+            margin-left: 360px;
+            margin-top: -30px;
+            color: grey;
+            padding-left: 15px;
+            padding-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .search-button {
+            box-sizing: border-box;
+            border: 2px solid white;
+            color: white;
+            background-color: rgb(255, 191, 0);
+            width: 140px;
+            height: 50px;
+            margin-left: 1260px;
+            font-size: 15px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: -55px;
+            padding-top: 10px;
+            padding-left: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            float: none;
+        }
+        
+        .container-left {
+            padding-top: 10px;
+            margin-left: 60px;
+        }
+        
+        .container-left .category-search {
+            border: 2px solid rgb(215, 209, 209);
+            width: 270px;
+            height: 30px;
+            color: gray;
+            padding: 5px;
+            padding-top: 0px;
+        }
+        
+        .container-left .block-1 {
+            border: 1px solid rgb(215, 209, 209);
+            margin-top: 5px;
+            width: 270px;
+            height: 30px;
+            padding: 5px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            background-color: rgba(236, 238, 238, 0.964);
+            display: block;
+        }
+        
+        .main-container {
+            margin-left: 400px;
+            margin-top: -600px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .main-container .under-menu {
+            margin-top: 5px;
+            margin-left: 0px;
+            color: grey;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        h2 {
+            color: black;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-left: 30px;
+        }
+        
+        .main-container .Zapchasti {
+            color: black;
+            font-weight: bold;
+            font-size: 17px;
+            margin-left: -470px;
+            margin-top: 25px;
+        }
+        
+        .main-container .new {
+            color: black;
+            border: 1px solid rgb(255, 191, 0);
+            border-radius: 3px;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
+            background-color: white;
+            margin-top: 60px;
+            margin-left: -370px;
+        }
+        
+        .main-container .used {
+            color: black;
+            border: 1px solid rgb(255, 191, 0);
+            border-radius: 3px;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
+            margin-left: 12px;
+            margin-top: 60px;
+            color: white;
+            background-color: rgb(255, 191, 0);
+        }
+        
+        .main-container .vnalichii {
+            color: black;
+            border: 1px solid rgb(255, 191, 0);
+            border-radius: 3px;
+            width: 160px;
+            height: 30px;
+            background-color: white;
+            margin-top: 60px;
+            margin-left: 580px;
+            align-items: center;
+            float: none;
+            padding-right: -20px;
+            padding-left: 10px;
+        }
+        
+        .main-container .podzakaz {
+            align-items: center;
+            color: black;
+            border: 1px solid rgb(255, 191, 0);
+            border-radius: 3px;
+            width: 130px;
+            height: 30px;
+            padding-left: 35px;
+            background-color: rgb(255, 191, 0);
+            margin-top: -37px;
+            margin-left: 960px;
+            color: white;
+            float: none;
+        }
+        
+        .main-container .price {
+            color: black;
+            padding-top: 20px;
+            margin-left: -1100px;
+        }
+        
+        .main-container .price-classification {
+            color: grey;
+            padding-top: 20px;
+        }
+        
+        .main-container .main-items {
+            padding-top: 10px;
+        }
+        
+        .line {
+            width: 1130px;
+            height: 2px;
+            background-color: rgb(215, 209, 209);
+            margin-bottom: 7px;
+            margin-top: 7px;
+        }
+        
+        .catalog-items {
+            width: 130px;
+            padding-top: 20px;
+            margin-top: -90px;
+            padding-bottom: 50px;
+        }
+        
+        .info {
+            color: black;
+            font-weight: bold;
+            padding-left: 155px;
+            margin-top: 25px;
+        }
+        
+        .info-description {
+            color: gray;
+            padding-left: 155px;
+            padding-top: 10px;
+        }
+        
+        .number {
+            padding-left: 155px;
+            padding-top: 10px;
+        }
+        
+        a {
+            color: rgb(34, 95, 228)
+        }
+        
+        .price-box {
+            padding-left: 625px;
+            padding-top: -10px;
+            margin-top: -60px;
+            font-size: 22px;
+            font-weight: bold;
+            color: black;
+        }
+        
+        .vnal {
+            font-size: 15px;
+            color: grey;
+            font-weight: normal;
+        }
+        
+        .vkorzinu {
+            color: white;
+            background-color: rgb(255, 191, 0);
+            border: 1px solid rgb(255, 191, 0);
+            border-radius: 3px;
+            width: 160px;
+            height: 30px;
+            margin-left: 950px;
+            margin-top: -40px;
+            text-align: center;
+            padding: 5px;
+        }
+        /* media queries  */
+        
+        @media screen and (max-width:1400px) {
+            .menu-container {
+                width: calc(100%/12*12);
+                height: 80px;
+            }
+            .avto-shtab {
+                width: calc(100%/12*12);
+                height: 170px;
+            }
+            .search {
+                width: calc(100%/12*12);
+                height: 170px;
+            }
+            .search-button {
+                margin-left: 1080px;
+                margin-top: 10px;
+            }
+            .main-container {
+                width: calc(100%/12*12);
+            }
+        }
